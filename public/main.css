@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root, html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:focus, a:active {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  width: 300px;
+  padding: 4px;
+  height: 30px;
+  color: black;
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+/*# sourceMappingURL=main.css.map */

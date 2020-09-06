@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root, html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+ol, ul { 
+  list-style: none;
+}
