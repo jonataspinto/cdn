@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
@@ -19,6 +20,10 @@ a:focus, a:active {
 
 ol, ul {
   list-style: none;
+}
+
+*::before, *::after {
+  content: "";
 }
 
 /*# sourceMappingURL=reset.css.map */

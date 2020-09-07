@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
@@ -21,8 +22,12 @@ ol, ul {
   list-style: none;
 }
 
+*::before, *::after {
+  content: "";
+}
+
 .btn {
-  width: 300px;
+  min-width: 100px;
   padding: 4px;
   height: 30px;
   color: black;
