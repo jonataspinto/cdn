@@ -7,7 +7,7 @@ adicionar esses links em seu html.
 ```
 e depois usar as classes
 ```
-<button class="btn btn--primary"
+<button class="btn btn--primary">
   Button primary
 </button>
 ```
